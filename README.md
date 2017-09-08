@@ -19,7 +19,10 @@ pequeños (Establecer un valor a "terreno pequeño").
 ## Paginas útiles
 
 
-https://data.buenosaires.gob.ar
-http://datosabiertos.aeroterra.com
-http://blog.properati.com.ar/buenos-aires-en-3d/
-http://datos.jus.gob.ar/dataset
+* https://data.buenosaires.gob.ar
+
+* http://datosabiertos.aeroterra.com
+
+* http://blog.properati.com.ar/buenos-aires-en-3d/
+
+* http://datos.jus.gob.ar/dataset
