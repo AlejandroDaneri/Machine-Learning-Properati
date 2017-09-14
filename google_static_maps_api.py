@@ -6,8 +6,10 @@ from StringIO import StringIO
 import numpy as np
 import pandas as pd
 import requests
-import Image
-
+try:
+    from PIL import Image
+except ImportError:
+    import Image
 
 TILE_SIZE = 256                                      # Basic Mercator Google Maps tile is 256 x 256
 MAX_SIN_LAT = 1. - 1e-5                              # Bound for sinus of latitude
