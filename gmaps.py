@@ -117,7 +117,7 @@ def heatmap(latitudes, longitudes, values, resolution=None, maptype=MAPTYPE):
     width = SCALE * MAX_SIZE
     plt.figure(figsize=(10, 10))
     plt.imshow(np.array(img))                                               # Background map
-    plt.imshow(z, origin='lower', extent=[0, width, 0, width], alpha=0.15)  # Foreground, transparent heatmap
+    plt.imshow(z, origin='lower', extent=[0, width, 0, width], alpha=0.9)  # Foreground, transparent heatmap
     plt.scatter(pixels['x_pixel'], pixels['y_pixel'], s=1)                  # Markers of all points
     plt.gca().invert_yaxis()                                                # Origin of map is upper left
     plt.axis([0, width, width, 0])                                          # Remove margin
