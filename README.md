@@ -16,6 +16,10 @@ Armar una tabla comparativa que compare cual tuvo un mayor indice de crecimiento
 * Analizar el tamaño de la superficie en venta en cada zona, y si en las zonas con mayor valor se suelen vender terrenos mas
 pequeños (Establecer un valor a "terreno pequeño").
 
+# Informe
+
+https://www.overleaf.com/11119244fyxkxxddzmyk
+
 ## Paginas útiles
 
 
