@@ -1,3 +1,4 @@
 /datos/
 *.pyc
 /metastore_db/
+*.log
