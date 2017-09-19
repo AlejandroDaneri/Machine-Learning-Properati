@@ -2,6 +2,10 @@
 
 { head -n1 properati-AR-2013-08-01-properties-sell.csv; for f in *.csv; do tail -n+2 "$f"; done; } > ../new.csv
 
+# Datasets descargados que pueden llegar a servir
+
+https://mega.nz/#!QQ4XmYYQ!QDGT-IQGogDNVa7gXIqFZToVljvblnVMvJKTXsgRQf8
+
 # Datos
 
 Ideas:
