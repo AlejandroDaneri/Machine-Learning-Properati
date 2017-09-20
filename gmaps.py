@@ -67,7 +67,7 @@ def scatter(latitudes, longitudes, colors=None, maptype=MAPTYPE):
         c=colors,
         s=width / 40,
         linewidth=0,
-        alpha=0.5,
+        #alpha=0.8,
     )
     plt.gca().invert_yaxis()                                                # Origin of map is upper left
     plt.axis([0, width, width, 0])                                          # Remove margin
