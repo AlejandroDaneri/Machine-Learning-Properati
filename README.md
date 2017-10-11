@@ -1,10 +1,8 @@
-# Ejemplo de comando para juntar CSVs
+# MLlib
 
-{ head -n1 properati-AR-2013-08-01-properties-sell.csv; for f in *.csv; do tail -n+2 "$f"; done; } > ../new.csv
+* Hay algunos algoritmos que solo sirven con features categoricas.
 
-# Datasets descargados que pueden llegar a servir
-
-https://mega.nz/#F!lFB0xBra!4NUx_QqgNUW0uGEgwuOUNg
+Una idea que tengo es discretizar datos continuos mediante QuantileDiscretizer por ejemplo. Ej: superficie=57 => labelSup="55-60"
 
 # Datos
 
@@ -27,6 +25,11 @@ pequeños (Establecer un valor a "terreno pequeño").
 # Informe
 
 https://www.overleaf.com/11119244fyxkxxddzmyk
+
+# Ejemplo de comando para juntar CSVs
+
+{ head -n1 properati-AR-2013-08-01-properties-sell.csv; for f in *.csv; do tail -n+2 "$f"; done; } > ../new.csv
+
 
 ## Paginas útiles
 
