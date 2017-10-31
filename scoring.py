@@ -3,7 +3,7 @@ import numpy as np
 
 # Utility function to report best scores
 def report_multi(results, nombres_scoring, n_top=10):
-    for s in nombres_scoring:
+    for s in sorted(nombres_scoring):
         print ("Puntajes usando "+s)
         for i in range(1, n_top + 1):
             candidates = np.flatnonzero(results['rank_test_'+s] == i)
