@@ -15,7 +15,7 @@ def report_multi(results, nombres_scoring, n_top=10):
                 print("Promedio validation score: {0:.3f} (std: {1:.3f})".format(
                     results['mean_test_'+s][candidate],
                     results['std_test_'+s][candidate]))
-                print("Hyper-parametros: {0}".format(results['params'][candidate]))
+                print("Hiper-parametros: {0}".format(results['params'][candidate]))
                 print("")
         print("------------------------------------")
         print("------------------------------------")
@@ -27,14 +27,14 @@ def report_single(results, n_top=10):
     for i in range(1, n_top + 1):
         candidates = np.flatnonzero(results['rank_test_score'] == i)
         for candidate in candidates:
-            print("Model with rank: {0}".format(i))
-            print("Mean training score: {0:.3f} (std: {1:.3f})".format(
+            print("Puesto: {0}".format(i))
+            print("Promedio training score: {0:.3f} (std: {1:.3f})".format(
                 results['mean_train_score'][candidate],
                 results['std_train_score'][candidate]))
-            print("Mean validation score: {0:.3f} (std: {1:.3f})".format(
+            print("Promedio validation score: {0:.3f} (std: {1:.3f})".format(
                 results['mean_test_score'][candidate],
                 results['std_test_score'][candidate]))
-            print("Mean score time: {0:.3f}s".format(   
+            print("Promedio score time: {0:.3f}s".format(   
                 results['mean_score_time'][candidate]))
-            print("Parameters: {0}".format(results['params'][candidate]))
+            print("Hiper-parametros: {0}".format(results['params'][candidate]))
             print("")
