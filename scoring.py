@@ -34,7 +34,7 @@ def report_single(results, n_top=10):
             print("Promedio validation score: {0:.3f} (std: {1:.3f})".format(
                 results['mean_test_score'][candidate],
                 results['std_test_score'][candidate]))
-            print("Promedio score time: {0:.3f}s".format(   
-                results['mean_score_time'][candidate]))
+            print("Promedio fit time: {0:.3f}s".format(   
+                results['mean_fit_time'][candidate]))
             print("Hiper-parametros: {0}".format(results['params'][candidate]))
             print("")
