@@ -1,6 +1,6 @@
 # Mejor Resultado de predicción
 
-Random Forest : 0.74796
+NADA
 
 # Ideas:
 
