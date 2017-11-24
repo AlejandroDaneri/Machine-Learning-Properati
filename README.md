@@ -1,15 +1,6 @@
 # Mejor Resultado de predicción
 
-NADA
-
-# Ideas:
-
-* Crear un nuevo dataframe con el id de cada publicacion, agregar columna de "a estrenar" y "patio" y verificar
-usando la descripcion del anuncio si la propiedad posee estas caracteristicas o no, luego evaluar el impacto
-que tienen en el costo de la propiedad, si sustancialmente aumenta su valor o no.
-
-* Analizar el tamaño de la superficie en venta en cada zona, y si en las zonas con mayor valor se suelen vender terrenos mas
-pequeños (Establecer un valor a "terreno pequeño").
+ensamble ExtraTree RF yy XGBoost con Isolation 936015216112.26500
 
 # Informe TP1
 
